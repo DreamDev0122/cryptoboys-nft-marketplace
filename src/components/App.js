@@ -100,7 +100,7 @@ class App extends Component {
     if (accounts.length == 0) {
       this.setState({ metamaskConnected: false });
     } else {
-    console.log("accounts",accounts.length);
+      console.log("accounts",accounts.length);
       this.setState({ metamaskConnected: true });
       this.setState({ loading: true });
       this.setState({ accountAddress: accounts[0] });
